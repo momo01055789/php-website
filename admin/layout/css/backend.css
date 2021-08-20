@@ -1,0 +1,85 @@
+/* start main rules */
+body{background-color: #f4f4f4;}
+/* end main rules */
+/* start login form */
+.login{width:300px;margin:100px auto;}
+.login input{margin-bottom:10px;}
+.login .form-control{background-color: #e5e5e5;}
+.login .btn{background-color: #008dde;}
+/* end login form */
+
+/* start bootstrap edits */
+
+/* end bootstrap edits */
+/* start members page */
+.main-table{
+    box-shadow: 3px 3px 10px #ccc;
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+}
+.activate{margin-left:5px;color:#fff;}
+.btn-primary{width:30%;}
+/* end members page */
+
+/* start dashboard page */
+.home-stats h1{
+    margin:30px 0;
+}
+.home-stats .stat{
+    padding:20px;
+    font-size:15px;
+    color:#fff;
+    border-radius:8px;
+}
+.home-stats .stat a{color:#fff;text-decoration: none;}
+.home-stats .st-members{
+    background-color:#3498db;
+}
+.home-stats .st-pending{
+    background-color:#e74c3c;
+}
+.home-stats .st-items{
+    background-color:#e67e22;
+}
+.home-stats .st-comments{
+    background-color:#f1c40f;
+}
+.home-stats .stat span{
+    display:block;
+    font-size:50px;
+}
+.latest{
+    margin-top:30px;
+}
+.panel {
+    border:solid 1px rgb(155, 146, 146);
+    border-radius:8px;
+}
+.panel a {
+    text-decoration:none;
+    color:white;
+}
+.panel-heading{
+    background-color: #ccc;
+    font-size:25px;
+    border-radius:4px;
+    text-align: center;
+}
+.panel-body{
+    font-size:20px;
+    background-color: rgb(245, 243, 243);
+}
+.latest-users{
+    margin-bottom:0;
+    
+}
+.latest-users li{
+    padding:5px 10px;
+    overflow:hidden;
+
+}
+.latest-users li:nth-child(even){background-color: #ccc;}
+/* end dashboard page */
